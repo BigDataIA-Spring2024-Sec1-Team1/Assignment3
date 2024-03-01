@@ -91,7 +91,7 @@ DBT:
 
 | Contributor | Contributions            | Percentage |
 |-------------|--------------------------|------------|
-| Dev Mithunisvar Premraj       | Web scraping data into CSV File and created 9 validations using Pydantic and 16 test cases using Pytest, created URL class. Created architecture diagram. Cleaned the csv file.    | 33.33% |
+| Dev Mithunisvar Premraj       | Web scraping data into CSV File and created 9 validations using Pydantic and 15 test cases( 6 pass and 9 fail) using Pytest, created URL class. Created architecture diagram. Cleaned the CSV file which was webscrapped and made a cleaned CSV file.    | 33.33% |
 | Aneesh Koka        | Created two PDF classes, MetaDataPDFClass and ContentPDFClass, to represent the schema for the Grobid output. Created clean CSV files for the two classes. Performed data and schema validation using Pydantic 2. Built 5+5 test cases using Pytest for each of the classes to show how validation would succeed/fail (5 pass and 5 fail) | 33.33% |
-| Rishabh Shah         | Loaded the clean csv file into Snowflake, created a summary table using DBT, wrote tests to validate columns, documented model, committed and deployed the model using DBT| 33.33% |
+| Rishabh Shah         | Loaded the clean CSV file into Snowflake, created a summary table using DBT, wrote tests to validate columns, documented model, committed and deployed the model using DBT| 33.33% |
 
