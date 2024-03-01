@@ -73,7 +73,7 @@ DBT:
 - It generates documentation for data models based on metadata defined in SQL files.
 - Projects are typically version-controlled using Git for tracking changes and collaboration.
 
-  ##Steps
+  ## Steps
 
 - Loaded the clean data into Snowflake
 - You intend to create a summary table with the following schema using DBT. (Level, Topic, Year, Number of articles, Min Length (Summary), Max Length (Summary), Min Length (Learning outcomes), Max Length (Learning outcomes))
