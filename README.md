@@ -1,5 +1,6 @@
 # Assignment 3
-![architecture_diagram.png]
+![Architecture Diagram](https://github.com/BigDataIA-Spring2024-Sec1-Team1/BreadcrumbsAssignment3
+/blob/main/architecture_diagram.png)
 ## Part 1: Designing 2 Python classes
 
 ### Prerequisites
