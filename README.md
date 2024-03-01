@@ -59,7 +59,7 @@ such as being positive integers, having a specific date format, and not containi
 Before running the script, ensure you have the following installed:
 - DBT 
 - Snowflake
-- 
+  
 ## Description
 
 DBT:
