@@ -8,7 +8,7 @@ Before running the script, ensure you have the following installed:
 - Python
 - Selenium
 - Chrome WebDriver (or a driver for your preferred browser)
-- - Pytest and Pydantic for testing and validation
+- Pytest and Pydantic for testing and validation
 
 
 You can install PyDantic using pip:
