@@ -41,9 +41,14 @@ PyTest:
 
 URLClass: 
 
-ContentPDFClass:
+ContentPDFClass: Defines a class ContentClass for representing content data. 
+It includes fields like level, title, topic, and learning_outcomes, 
+with validation rules for ensuring that certain fields do not contain HTML or quote characters
 
-MetadataPDFClass: 
+MetadataPDFClass: Defines a Pydantic model class, DocumentMetadata, which is used for documenting metadata of documents. 
+It includes fields like file_size_bytes, num_pages, s3_grobid_text_link, file_path, encryption, and date_updated. 
+The model also includes validators for ensuring that certain fields meet specific criteria, 
+such as being positive integers, having a specific date format, and not containing HTML or quote characters.
 
 ## Part 2: Using DBT
 
