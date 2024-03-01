@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: finance_test
+    description: "Model for storing article details"
+    columns:
+      - name: topic
+        description: "The topic of the article"
+        tests:
+          - not_null
+
+      - name: number_of_articles
+        description: "The number of articles"
+        tests:
+          - not_null
+
+      - name: year
+        description: "The year of the article published"
+        tests:
+          - not_null
+
+      - name: min_length_summary
+        description: "The minimum length of the summary"
+        tests:
+          - not_null
+
+      - name: max_length_summary
+        description: "The maximum length of the summary"
+        tests:
+          - not_null
+      
+      - name: Min_Length_Learningoutcomes
+        description: "The minimum length of the Learning outcomes"
+
+      - name: Max_Length_Learningoutcomes
+        description: "The maximum length of the Learning outcomes"
+

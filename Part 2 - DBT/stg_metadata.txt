@@ -1,0 +1,3 @@
+select level, topic, year, count(*) as number_of_articles
+from {{ source('Summary', 'Summary_Test') }}
+group by level, topic, year

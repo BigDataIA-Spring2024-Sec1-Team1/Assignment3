@@ -1,0 +1,6 @@
+SELECT Topic,
+    MIN(LENGTH(Learning_Outcomes)) AS Min_Length_Learningoutcomes,
+    MAX(LENGTH(Learning_Outcomes)) AS Max_Length_Learningoutcomes
+from {{ source('Summary', 'Summary_Test') }}
+GROUP BY 
+    Topic

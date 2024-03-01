@@ -1,0 +1,6 @@
+SELECT Topic,
+    MIN(LENGTH(Summary)) AS Min_Length_Summary,
+    MAX(LENGTH(Summary)) AS Max_Length_Summary
+from {{ source('Summary', 'Summary_Test') }}
+GROUP BY 
+    Topic

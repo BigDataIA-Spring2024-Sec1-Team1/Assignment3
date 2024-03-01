@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+    - name: Summary
+      description: This is a replica of the Postgres database used by our app
+      database: FINANCE
+      schema: PUBLIC
+      tables:
+          - name: Summary_Test
+            description: One record per article
+        
