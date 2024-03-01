@@ -1,5 +1,5 @@
 # Assignment 3
-![Architecture Diagram]
+![architecture_diagram.png]
 ## Part 1: Designing 2 Python classes
 
 ### Prerequisites
